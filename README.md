@@ -9,3 +9,8 @@ In this repository I am keeping the track of what I am learning from the course 
 
 
 table of each feature and things I have learned and their application 
+1. Intensity, Timbre, Loudness
+2. Signal Properties, Waveform
+3. Extraction of those features
+4. Amplitude Envelope
+5. MFCC Features 
