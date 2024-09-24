@@ -4,8 +4,6 @@ Audio Signal Processing for ML
 
 In this repository, I am keeping track of what I am learning from the course of Valerio Velerado [Audio Signal Processing for ML](https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0)
 
-![image](https://github.com/user-attachments/assets/94de65f5-6779-421c-a88a-aa60dbdc2181)
-
 
 ## Table of Features, Learnings, and Applications
 
