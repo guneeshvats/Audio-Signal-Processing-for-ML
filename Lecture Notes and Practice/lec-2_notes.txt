@@ -1,0 +1,76 @@
+Sound 
+    1. Produced by vibration of an object 
+    2. Vibrations cause air molecules to oscillate
+    3. Change in air pressure creates a Waves
+
+    Mechanical Waves : 
+    - Oscillation that travels throufh space 
+    - Ennergy travels from one point to another 
+    - The medium (air) is deformed
+    - There are 2 stages in sound wave compression(more pressure, compressed air) and rarefaction(very less air pressure)
+
+Waveform 
+    1. Represent sound/audio 
+    2. Like a pressure plot 
+    3. carries information about - Intensity, Frequency, Timbre
+
+Periodic and Aperiodic Sounds 
+    1. Periodic
+        - Simple compressions and rarefactions repeat regularly (like a sine wave)
+        - Complex - orcheestra sounds (multiple sine waves superimposed - Fourier series)
+    2. Aperiodic 
+        - Continuous (Noise)
+        - Transient (Pulse) - popping, click sounds etc. like a burst of Energy
+    
+    Simple Sine wave analysed : A.Sin(2pift + phi) 
+    A - Amplitude 
+    f - freq = 1/T
+    phi - Phase (it enables us to shift the waveform and tells us position of waveform at t = 0)
+
+Freq and Amplitude : 
+    1. higher the frequency - higher the sound we percieve. 
+    2. Larger amplitude - louder the sound we percieve 
+        Since aplitude measures the amt of perturbation and larger the perturbation larger
+
+Hearing Ranges for different animals. 
+    Human - 20Hz to 20,000Hz
+    Bats can hear ultrasounds and other animals are compared. 
+    There is a plot of different sounds and in which range do they lie so what we hear lies in which range of freq
+
+Pitch : (Subjective) ~ Perception of frequency
+    1. Logarithmic Perception 
+    2. We hear pitch in a logarithmic way and not linear way 
+    3. 2 frequencies are percieved similarly if they differ by a power of 2. 
+
+Midi Notes: 
+    For transforming information about musical notes etc. 
+    Octave : 
+        An octave is the distance between two musical notes where one note has a frequency that is double 
+        or half of the other. For example, if a note has a frequency of 440 Hz, the note one octave above it is 880 Hz, 
+        and the note one octave below it is 220 Hz. On a piano, an octave is the distance between eight white keys. Notes that are separated by an octave have the same letter name
+
+    Pitch Frequency Chart : Logarithmic Chart 
+    Mapping pitch to frequency formula : F(p) = 2^((p-69)/12) * 440
+
+    Relation between 2 subsequent pitches : F(p+1)/F(p) = 1.059 (Remains always the same)
+
+Cents: 
+    1. Octave divided in 1200 Cents
+    2. 100 cents in a semitone 
+    3. Noticeable pitch difference : 10-25 cents
+
+
+
+Some extra points : 
+Pitch and frequency are different in the following ways: 
+
+1. Frequency is a physical quantity that measures how often a repeating event occurs per unit of time, while pitch is a perceptual quantity that describes how high or low a sound is heard. 
+2. Frequency is measured in Hertz (Hz), which is equal to one occurrence per second. 
+3. Pitch is what the listener perceives, and is detected by the ears. 
+    Relationship between the 2 : 
+        Higher frequencies are associated with higher pitches, and lower frequencies are associated with lower pitches. 
+        Range
+        The range of frequencies that audio equipment can reproduce is measured in Hertz, and typically ranges from 20 Hz to 20 kHz. The range of pitches that a singer or instrument can cover is specified in octaves. 
+    Vibration
+        Higher notes have faster vibrations, while lower notes have slower vibrations.
+A frequency is how frequent sound waves pass a certain point in a second. Pitch is how high or low we hear a sound to be. If the frequency is higher, the pitch is higher , If the frequency is lower , the pitch is lower.

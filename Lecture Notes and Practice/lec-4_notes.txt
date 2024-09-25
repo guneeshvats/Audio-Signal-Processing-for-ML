@@ -1,0 +1,80 @@
+For this I also have presentation given in the lecture along with these notes. 
+
+Understanding the audio/sound  and convert it into a digital signal which we can use to extract features from 
+
+Sound is a mechanical/analog wave/signal. 
+
+1.) Analog Signal 
+    Continuous values over time and amplitude (Infinite resolution)
+    But we can't store this infinite values. 
+
+2) Digital Signal 
+    Sequence of discrete values
+    can only take finite number of values 
+
+Analog to Digital conversion (ADC): 
+    2 step process : 
+    1) Sampling 
+    2) Quantization
+
+    Pulse Code Modulation - Audio digital signal
+
+    Sampling : 
+        1) Sampling Period  (tn = n.T), T - Time period 
+        2) Sampling rate - 1/T (How many sample points we have for each second of our digital signal)
+        
+        Low Sample Rate, High Sampling Rate
+            - Difference is the information loss 
+            - which is high in low sampling rate
+            - High sampling rate is proportional to low info loss. 
+
+        So what SR should we use : Depends on the task as hand. 
+        But there is some reasoning behind and threshold or theory for it 
+
+        Nyquist Theorem gives Nyquist Frequency. Min SR should be 2xfN. 
+            To avoid Aliasing we should keep SR above the Nyquist frequency. 
+            Alisaing means - we loose the information (overlapping of freq domain curves) - all frequencies get aliased(gets moved to lower freq)
+            (higher level freq are shifted)
+            Audacity (open source software we can use to analyse sound signals)
+
+    Quantization : 
+        At each sample on x-axis we sample to the nearest level avail of quantization on y-axis. 
+        Quantization error : The more values we have on y-axis(levels) the less quantization we will have
+
+
+        Resolution of quntization is calclated in number of bits. (number of levels = 2^bit_depth )
+        Bit Depth 
+
+memory of 1 sound 
+SR = 44,100Hz
+Bit Depth = 16 bits
+
+amt of memory required to store this sound (1 minute) : (16.44,100) --- number of bits/s  
+to MB/s 
+((16.44,100)/1048576/8). 60 ~ 5.49MB   (a lot of memory) - that is why we get lossy sounds because of low sampling rate/less bit depth
+
+
+Dynamic Range : 
+    Difference between largest/smallest signal a system can record. 
+    (loudness range from a digital standpoint)
+
+    Higher the resolution higher the dyunamic range
+
+
+SNR ratio 
+    Max signal strength to quantization error
+    correlates with dynamic strenght
+    SQNR ~ 6.02.Q      (Q - bit depth)
+    16 bit depth - SQNR ~ 96dB
+
+
+How do we record sound : 
+    1. Meachanical wave hits the microphone 
+    2. Starts vibrating/oscillating - creates analog electrical signal 
+    3. ADC (Sampling, Quantization, Anti-Aliasing filters(LPF))
+    4. We have a digital signal and we store it in our system 
+
+
+DAC : 
+    1. converts the digital signal back and gives us sound/analog signal back
+    2. the electrical signal hits the membranes and hits our ears. 

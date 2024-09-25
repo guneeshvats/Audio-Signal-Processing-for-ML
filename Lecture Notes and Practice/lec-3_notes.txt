@@ -1,0 +1,99 @@
+Features of Sound 
+First lets see Intensity & Power 
+
+Power (Sound Power)
+    Sound Power : Rate at which energy is transfered 
+    Energy per unit time emitted by the sound source in all directions
+    Measured in Watts (W)
+
+Sound Intensity
+    1. Sound Power per unit area
+    2. Measured in (W/m^2)
+
+Usually an orchestra has power of 1W (surprisingly so low)
+This tells us about threshold of hearing (TOH) - 10^12 W/m^2
+Threshold of pain (beyond which we statrt to get pain) - 10 W/m^2
+its enormous what we can percieve
+
+That is why we put intensity level on an enormous scale because the range is so vast. 
+Measured in decibels 
+Ratio between 2 intensity values 
+    Intensity of this wave and 
+    Intensity of Reference (usually - TOH is used as reference) 
+    dB = 10.log(I/Itoh) 
+    if I = Ttoh then dB = 0 
+
+    Everytime we go up by 3dB intensity usually doubles
+
+There is a table of Intensitie of various sounds we hear around us and other beyond range sounds. 
+
+
+Loudness : 
+    1. Subjective measure of sound intenisity 
+        just like pitch is a subjective measure of freq this is sub measure of intensity
+    2. Depends on duration (we hear shorter duration same intensity sounds as less loud than longer duration sounds) / freq of sound (same thing with freq) 
+    3. Depends on age
+    4. Measured in phons 
+        a) Equal loudness contours plot (Different intensity sounds but percieved at same loudness)
+        b) or maybe in some scenario we need more intensity to percieve at same level of loudness as before 
+we just saw correlation between physical measures and perceptual measures. 
+
+
+
+Timbre : 
+    1. We don't have a fixed defintion but we have a concept. 
+    2. Colour of sound 
+    3. Difference between 2 sounds with same intensity, freq, duration
+    4. Described with words like - Bright, Dark, Dull, Harsh, warm 
+    5. It is MULTIDIMENSIONAL 
+        It is a multifactorial sound dimension
+    6. How to measure it ????
+        a) Sound envelope
+        b) Harmonic Content 
+        c) Amplitude / freq modulation 
+
+
+        Sound Envelope : 
+            i) Sound usually has an envelope (it can be divided with ADSR model)
+            ii) Attack - Decay - Sustain - Release Model (See a plot to understand this)
+            iii) 
+        
+        Harmonic Content : 
+            (to understand this we need to understand what a complex sound is made up of - multiple(Superposition) sinusoids(Simple sounds))
+            (A partial is a sinusoid to describe a sound), (sinusoids that superimposed)
+            (Lowest partial is called Fundamental Frequency)
+            Harmonic Partial is a freq that's a multiple of fundamental Frequency
+            basic Idea is complex sound is made up of all these partials and harmonic content is the energy we have in 
+            each of these partials. This somehow determines timbre of sound. 
+
+            Not all sounds are perferctly harmonic - Deviation from harmonic partial - Inharmonicity
+            Violin - harmonic
+            Percussion (drumd) - Inharmonic 
+
+            In the ipynb files for this lecture we have different features for different instruments. 
+
+            We have plotted spectrogram for these sounds. 
+            In the violin plot we can see partials presence and how they are present at multiples of fundamental frequency
+
+            Then we have sound of piano : We have harmoic content - partials etc... 
+            The higher we go less presence of partials similar to violin but content is less here in piano. 
+            Distribution of energy across different partials is what we get from this plot. Which is the point of Harmoinic content. 
+
+
+        Freq Modulation 
+            1) AKA Vibrato 
+            2) Periodic variations in Frequency -  in music for expressive purposes 
+            3) We have a message signal which is applied on the carrier signal and we get modulated signal. 
+            See some plots related to this online
+
+            What is Vibrato : 
+                1) Alternating between 2 notes etc.. (watch a video for this maybe)
+
+        Amplitude Modulation 
+            1) AKA tremlo 
+            2) Periodic Variation in amplitude - in music used for expressive purposes.
+            3) we have message signal applied on carrier signal. (kind of like Burst and release of energy at regular intervals)
+
+        when we modulate the sound we change the timbre not exactly the freq or amp but a quirk that changes teh time grip. 
+
+    

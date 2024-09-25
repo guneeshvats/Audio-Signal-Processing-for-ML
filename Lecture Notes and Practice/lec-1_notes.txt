@@ -1,0 +1,29 @@
+2 stages of Speech Model 
+  1. Develpoment and training 
+  2. Preparing the raw audio data 
+
+What is going to be covered in this course: 
+  1. Sound Waves 
+  2. DAC / ADC
+  3. Time and Freq Domain Features  
+  4. Audio Transformations
+    a) FT / STFT
+    b) Constant Q transform 
+    c) Mel Spectogram
+    d) Chromograms 
+  5. Audio and Music Perception 
+
+Theory and Coding will be covered in this course. 
+We are going to use Python and Librosa (open source audio processing library)
+
+What we will learn 
+  1. Deep understanding of audio data
+  2. Freq/Time domain Features
+  3. Extract features from raw audio 
+  4 Recognize which features to use for ML applications 
+  5. Preprocess audio data for ML
+  6. Understand math behind audio transformations 
+  7. Using librosa for audio projects. 
+
+
+Slack community to join for this course : https://valeriovelardo.com/the-sound-of-ai-community/
